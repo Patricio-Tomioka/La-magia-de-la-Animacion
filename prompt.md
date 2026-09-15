@@ -21,11 +21,12 @@ CSS
 
 # Prompt base
 
-Quiero construir un documento digital sobre:
+Quiero construir un documento digital sobre:El pensamiento y creación de los mundos cinematograficos de James Camerón, que represente en un fondo las animaciones de sus peliculas mas taquilleras y reconocidas, que al entrar el espectador pueda sentir comodidad con lo visual y que tenga alternativas interactivas para poder explorar sus temas
 
 **[TEMA]**
 
-Necesito organizar información sobre:
+Necesito organizar información sobre: "el mundo de la animación" de James Camerón, con sus opeliculas y el trabajo que hay detras de las peliculas mas aclamadas como avatar, terminator y titanic 
+
 
 **[TIPO DE CONTENIDO O COLECCIÓN]**
 
@@ -34,17 +35,18 @@ Antes de generar HTML, investiga y estructura la información.
 ## Objetivo
 
 Construye un documento de información estructurada que pueda utilizarse
-posteriormente para generar una página web.
+posteriormente para generar una página web: que pueda tener información relevante y resumida sin olvidar los puntos nesesarios e importantes, añadiendo un lenguaje sencillo con bloques y que al entrar aparescan apartados de información de curiocidades
 
 ## Estructura
 
 Cada elemento debe incluir los siguientes campos:
 
-- [CAMPO 1]
-- [CAMPO 2]
-- [CAMPO 3]
-- [CAMPO 4]
-- [CAMPO 5]
+- [maneja el tema de la pelicula de Avatar 1]
+- [contexto y origén]
+- [en que se inspira la obra escrita]
+- [que intención tiene la pelicula en el publico]
+- [el universo que rodea la idea]
+- [opiniones positivas y negativas de sus trabajos en la animación y dimenciones inmercivas]
 
 Todos los elementos deben mantener exactamente la misma estructura.
 
