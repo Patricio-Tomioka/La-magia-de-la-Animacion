@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--
+    HEAD
+    Contiene información sobre el documento.
+    Aquí podemos definir metadata, título, favicon y archivos externos.
+  -->
+
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    name="description"
+    content="Guía sobre contenido estructurado, jerarquía y organización de información."
+  >
+  <title>Contenido estructurado</title>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Hoja de estilos externa -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!--
+    HEADER
+    Contenido introductorio del documento.
+  -->
+  <header>      
+    <p><small>Organizar antes de diseñar.</small></p>
+    <h1>Contenido estructurado</h1>
+    <p>De la intención de comunicación a la estructura de información.</p>
+    <p><i>Esta guía permite estructurar contenido en Markdown para crear documentos digitales consistentes, reutilizables y fáciles de interpretar.</i></p>
+  </header>
+  <!--
+    NAV
+    Contiene enlaces principales de navegación.
+  -->
+  <nav>
+    <a href="#contenido-estructurado">Contenido estructurado</a>
+    <a href="#intencion">Intención</a>
+    <a href="#alcance">Alcance</a>
+    <a href="#investigacion">Investigación</a>
+    <a href="#jerarquia">Jerarquía</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#validacion">Validación</a>
+  </nav>
+
+
+  <!--
+    MAIN
+    Contiene el contenido principal del documento.
+  -->
+  <main>
+    
+    <section id="contenido-estructurado">
+      <h2>¿Qué es el contenido estructurado?</h2>
+      <p>Un documento digital no comienza con código, color o tipografía. Comienza con una pregunta: <strong>¿Qué queremos comunicar?</strong></p>
+      <p>Una colección de datos no constituye por sí misma un mensaje. Los datos adquieren sentido cuando se seleccionan, nombran, agrupan, ordenan y relacionan de acuerdo con una intención.</p>
+      <p>El <strong>contenido estructurado</strong> es información dividida en partes identificables, organizadas mediante una jerarquía y descritas con reglas consistentes. No se piensa como una página terminada, sino como un sistema de piezas que pueden comprenderse, actualizarse, reutilizarse y transformarse.</p>
+      <p>Cada pieza debe responder:</p>
+      <ol>
+        <li>¿Qué información contiene?</li>
+        <li>¿Qué función cumple?</li>
+        <li>¿Cómo se relaciona con las demás?</li>
+      </ol>
+      <p>Para trabajar con claridad debemos distinguir tres capas:</p>
+      <ul>
+        <li><strong>Contenido:</strong> lo que el documento comunica.</li>
+        <li><strong>Estructura:</strong> cómo se organizan y relacionan sus partes.</li>
+        <li><strong>Presentación:</strong> cómo se hacen visibles mediante tipografía, color, espacio y composición.</li>
+      </ul>
+      <p>En esta etapa trabajaremos con contenido y estructura. La presentación visual vendrá después.</p>
+    </section>
+
+    <section id="intencion">
+      <h2>Intención de comunicación</h2>
+      <p>La <strong>intención de comunicación</strong> es la idea que dirige el documento. No es solamente el tema: es la lectura específica que queremos construir sobre él.</p>
+      <p>Debe definir:</p>
+      <ul>
+        <li><strong>Tema:</strong> de qué trata.</li>
+        <li><strong>Enfoque:</strong> desde qué perspectiva se aborda.</li>
+        <li><strong>Propósito:</strong> para qué existe.</li>
+        <li><strong>Audiencia:</strong> para quién se construye.</li>
+        <li><strong>Transformación:</strong> qué debería comprender, sentir, cuestionar o hacer el usuario.</li>
+        <li><strong>Tono:</strong> qué actitud tendrá la comunicación.</li>
+      </ul>
+      <p>La intención permite decidir qué información pertenece al proyecto y cuál debe quedar fuera. También orienta la jerarquía, el lenguaje y las relaciones que deberán hacerse visibles.</p>
+      <blockquote>La intención no aparece al final de la estructura: la estructura nace de ella.</blockquote>
+    </section>
+
+    <section id="alcance">
+      <h2>Del universo al alcance</h2>
+      <p>Todo tema forma parte de un universo más amplio. Intentar comunicarlo por completo suele producir documentos extensos y dispersos.</p>
+      <p><strong>Delimitar</strong> significa establecer el territorio concreto del proyecto:</p>
+      <ul>
+        <li>qué aspecto se investigará;</li>
+        <li>qué periodo, contexto o categoría se incluirá;</li>
+        <li>qué preguntas busca responder;</li>
+        <li>qué nivel de profundidad tendrá;</li>
+        <li>qué contenido queda fuera.</li>
+      </ul>
+      <p>Delimitar no empobrece la información. Le proporciona dirección y permite investigar con mayor profundidad. El alcance debe ser suficientemente específico para sostener una lectura clara y suficientemente amplio para que la intención pueda desarrollarse.</p>
+    </section>
+
+    <section id="investigacion">
+      <h2>Investigar y seleccionar</h2>
+      <p>La estructura debe surgir del conocimiento del tema, no de una plantilla impuesta antes de investigar.</p>
+      <p>La investigación permite descubrir conceptos, entidades, atributos, categorías, relaciones, patrones y vacíos de información. Durante este proceso conviene distinguir:</p>
+      <ul>
+        <li><strong>Hechos:</strong> información verificable mediante fuentes.</li>
+        <li><strong>Interpretaciones:</strong> lecturas argumentadas a partir de los hechos.</li>
+        <li><strong>Decisiones editoriales:</strong> elecciones sobre qué incluir y cómo organizarlo.</li>
+        <li><strong>Pendientes:</strong> datos incompletos, dudosos o contradictorios.</li>
+      </ul>
+      <p>Toda información importante debe conservar su fuente, fecha y estado de verificación. Una estructura consistente pierde valor si contiene datos imprecisos o imposibles de rastrear.</p>
+      <p>Investigar amplía el universo; estructurar exige reducirlo. Cada pieza puede clasificarse como:</p>
+      <ul>
+        <li><strong>Esencial:</strong> necesaria para comprender la intención.</li>
+        <li><strong>De apoyo:</strong> amplía, demuestra o contextualiza.</li>
+        <li><strong>Complementaria:</strong> enriquece, pero puede omitirse.</li>
+        <li><strong>Excluida:</strong> repite, desvía o pertenece a otro alcance.</li>
+      </ul>
+      <blockquote>Incluir más información no significa comunicar mejor.</blockquote>
+    </section>
+
+    <section id="unidades">
+      <h2>Unidades, atributos y relaciones</h2>
+      <p>Una <strong>unidad de contenido</strong> es una pieza del sistema que puede identificarse y comprenderse por sí misma: una persona, obra, acontecimiento, lugar, concepto o proceso.</p>
+      <p>Cada unidad necesita:</p>
+      <ul>
+        <li>una identidad clara;</li>
+        <li>una función dentro del documento;</li>
+        <li>atributos definidos;</li>
+        <li>relaciones con otras unidades;</li>
+        <li>reglas sobre qué información es obligatoria u opcional.</li>
+      </ul>
+      <p>Para modelar el contenido debemos reconocer:</p>
+      <dl>
+        <dt>Entidad</dt>
+        <dd>Elemento principal que se documenta.</dd>
+        <dt>Atributo</dt>
+        <dd>Característica que describe a la entidad.</dd>
+        <dt>Categoría</dt>
+        <dd>Criterio para agrupar entidades.</dd>
+        <dt>Relación</dt>
+        <dd>Vínculo entre elementos o conceptos.</dd>
+        <dt>Metadato</dt>
+        <dd>Información que identifica o administra el contenido.</dd>
+        <dt>Acción</dt>
+        <dd>Posibilidad que se ofrece al usuario.</dd>
+      </dl>
+      <p>Nombrar estas partes reduce ambigüedades y permite construir un modelo repetible. En lugar de redactar cada página desde cero, creamos una estructura capaz de recibir distintos contenidos sin perder coherencia.</p>
+    </section>
+
+    <section id="jerarquia">
+      <h2>Jerarquizar el contenido</h2>
+      <p>La <strong>jerarquía</strong> establece niveles de importancia y dependencia. Indica qué presenta el documento, qué ideas lo desarrollan y qué información las amplía.</p>
+      <p>Una jerarquía clara permite:</p>
+      <ul>
+        <li>reconocer el tema principal;</li>
+        <li>recorrer el documento sin leerlo completo;</li>
+        <li>comprender qué ideas dependen de otras;</li>
+        <li>distinguir contenido principal y complementario;</li>
+        <li>traducir posteriormente la estructura a HTML semántico.</li>
+      </ul>
+      <p>Los títulos identifican niveles; los párrafos desarrollan ideas; las listas agrupan elementos equivalentes y el énfasis señala conceptos relevantes sin crear nuevas secciones.</p>
+      <p>La jerarquía no consiste en hacer una frase visualmente más grande. Consiste en asignarle una <strong>función estructural</strong>.</p>
+      <p>El índice es una prueba de esa organización. Si al leer únicamente los títulos y subtítulos no se comprende el recorrido, la arquitectura todavía necesita trabajo.</p>
+    </section>
+
+    <section id="identidad">
+      <h2>Identidad, intención y alcance</h2>
+      <p>La entrada de un documento debe comunicar rápidamente tres funciones:</p>
+      <ol>
+        <li><strong>Identidad:</strong> qué es.</li>
+        <li><strong>Intención:</strong> qué idea lo orienta.</li>
+        <li><strong>Alcance:</strong> qué encontrará el usuario y para qué le servirá.</li>
+      </ol>
+      <p>Estas funciones pueden expresarse mediante <strong>título, tagline y descriptor</strong>, pero no constituyen una fórmula obligatoria.</p>
+      <h3>Título</h3>
+      <p>Identifica el proyecto o documento. Debe ser breve y reconocible.</p>
+      <h3>Tagline</h3>
+      <p>Condensa la intención en una frase breve. Posiciona el proyecto sin repetir el título.</p>
+      <h3>Descriptor</h3>
+      <p>Explica con mayor precisión el tema, el enfoque y el propósito.</p>
+      <p>Según el tipo de documento, esta entrada también puede adoptar otras formas: título y resumen, categoría y título, pregunta y respuesta o título, metadatos e introducción.</p>
+    </section>
+
+    <section id="markdown">
+      <h2>Markdown como especificación</h2>
+      <p>Markdown es un formato de texto plano para escribir documentos estructurados mediante marcas legibles. En este proyecto funcionará como una <strong>especificación de información</strong> entre la investigación y la implementación.</p>
+      <p>Cada recurso debe cumplir una función:</p>
+      <ul>
+        <li><strong>Títulos y subtítulos:</strong> representan niveles jerárquicos.</li>
+        <li><strong>Negritas:</strong> destacan conceptos o decisiones centrales.</li>
+        <li><em>Itálicas:</em> introducen un énfasis moderado o una variación de voz.</li>
+        <li><strong>Párrafos:</strong> desarrollan una idea a la vez.</li>
+        <li><strong>Listas:</strong> agrupan pasos, condiciones o elementos equivalentes.</li>
+        <li><strong>Citas:</strong> aíslan principios, preguntas o fragmentos provenientes de una fuente.</li>
+        <li><strong>Enlaces:</strong> conectan con fuentes, referencias o acciones.</li>
+        <li><strong>Imágenes:</strong> aportan información y necesitan descripción y procedencia.</li>
+      </ul>
+      <p>La negrita comunica importancia, no decoración. La itálica modifica el tono o énfasis de una frase. Los encabezados no deben utilizarse sólo para producir diferencias de tamaño.</p>
+      <p>Markdown no define la apariencia final. Hace explícita la función de cada parte para que el contenido pueda leerse, revisarse, versionarse y transformarse.</p>
+    </section>
+
+    <section id="sistema">
+      <h2>Construir un sistema de información</h2>
+      <p>Una estructura se convierte en <strong>sistema</strong> cuando establece reglas que pueden aplicarse a múltiples unidades.</p>
+      <p>El sistema define:</p>
+      <ul>
+        <li>qué unidades y atributos existen;</li>
+        <li>cuáles son obligatorios u opcionales;</li>
+        <li>cómo se nombran y ordenan;</li>
+        <li>qué relaciones pueden establecerse;</li>
+        <li>qué reglas deben mantenerse.</li>
+      </ul>
+      <p>Debe ser estable en sus reglas y flexible en sus contenidos. La consistencia permite reconocer un patrón; la homogeneidad vuelve comparables las unidades y la variación conserva sus diferencias reales.</p>
+      <p>Separar contenido y presentación facilita modificar el diseño sin reescribir la información y producir distintas interfaces desde una misma fuente.</p>
+      <p>Para poder migrar, el contenido debe ser:</p>
+      <ul>
+        <li><strong>modular:</strong> cada unidad puede trasladarse;</li>
+        <li><strong>explícito:</strong> su función está nombrada;</li>
+        <li><strong>predecible:</strong> conserva reglas;</li>
+        <li><strong>trazable:</strong> sus fuentes pueden verificarse;</li>
+        <li><strong>actualizable:</strong> una parte puede cambiar sin reconstruir todo.</li>
+      </ul>
+      <blockquote>El diseño visual hace perceptible la estructura; no debe inventarla después.</blockquote>
+    </section>
+
+    <section id="inteligencia-artificial">
+      <h2>Trabajar con inteligencia artificial</h2>
+      <p>La inteligencia artificial puede investigar, sintetizar, clasificar, detectar inconsistencias y transformar contenido. Para obtener resultados consistentes necesita instrucciones que definan:</p>
+      <ul>
+        <li>intención, alcance y audiencia;</li>
+        <li>estructura y jerarquía;</li>
+        <li>criterios de inclusión y exclusión;</li>
+        <li>fuentes y restricciones;</li>
+        <li>formato y resultado esperado.</li>
+      </ul>
+      <p>La IA puede asistir en la ejecución, pero no sustituye las decisiones del autor. La responsabilidad sobre la intención, la veracidad y la pertinencia permanece en quien construye el documento.</p>
+      <p>El autor debe definir el enfoque, verificar los datos, distinguir hechos de interpretaciones, revisar omisiones y documentar el uso de IA.</p>
+      <blockquote>La calidad del resultado depende de la calidad de las decisiones que el prompt logra expresar.</blockquote>
+    </section>
+
+    <section id="proceso">
+      <h2>Proceso de trabajo</h2>
+      <ol>
+        <li><strong>Reconocer:</strong> identificar el universo del tema.</li>
+        <li><strong>Delimitar:</strong> definir el alcance.</li>
+        <li><strong>Investigar:</strong> reunir información y fuentes.</li>
+        <li><strong>Formular:</strong> establecer intención, audiencia y tono.</li>
+        <li><strong>Seleccionar:</strong> conservar lo que sostiene la intención.</li>
+        <li><strong>Modelar:</strong> definir unidades, atributos y relaciones.</li>
+        <li><strong>Jerarquizar:</strong> ordenar por importancia y dependencia.</li>
+        <li><strong>Escribir:</strong> documentar la estructura en Markdown.</li>
+        <li><strong>Revisar:</strong> comprobarla mediante el índice.</li>
+        <li><strong>Validar:</strong> verificar claridad, consistencia y fuentes.</li>
+        <li><strong>Transformar:</strong> utilizar el documento como origen de otros formatos.</li>
+      </ol>
+    </section>
+
+    <section id="validacion">
+      <h2>Criterios de validación</h2>
+      <h3>Intención y alcance</h3>
+      <ul>
+        <li>¿Comunica una idea específica y mantiene el enfoque?</li>
+        <li>¿La audiencia, el propósito y los límites son claros?</li>
+        <li>¿Toda la información incluida cumple una función?</li>
+      </ul>
+      <h3>Investigación</h3>
+      <ul>
+        <li>¿Los datos y fuentes pueden verificarse?</li>
+        <li>¿Se distinguen hechos, interpretaciones y pendientes?</li>
+      </ul>
+      <h3>Estructura</h3>
+      <ul>
+        <li>¿Cada sección y unidad cumple una función?</li>
+        <li>¿Los atributos equivalentes conservan nombres consistentes?</li>
+        <li>¿El índice permite comprender el recorrido?</li>
+        <li>¿La jerarquía puede trasladarse a HTML?</li>
+      </ul>
+      <h3>Reutilización e IA</h3>
+      <ul>
+        <li>¿El contenido puede separarse de su presentación?</li>
+        <li>¿La estructura puede aplicarse a otras unidades y formatos?</li>
+        <li>¿Las instrucciones dadas a la IA son claras?</li>
+        <li>¿El resultado fue revisado y no presenta invenciones como hechos?</li>
+      </ul>
+    </section>
+
+    <section id="principio">
+      <h2>Principio general</h2>
+      <blockquote>La intención determina qué información necesitamos. La estructura organiza sus relaciones. La jerarquía establece cómo se comprende. Markdown documenta esas decisiones para que puedan revisarse, reutilizarse y transformarse.</blockquote>
+      <p>Un documento digital comienza cuando una colección de datos se convierte en una estructura capaz de comunicar con claridad.</p>
+    </section>
+
+    <section id="referencias">
+      <h2>Referencias conceptuales</h2>
+      <ul>
+        <li><a href="https://digital.gov/resources/an-introduction-to-structured-content">An introduction to structured content</a> — Digital.gov</li>
+        <li><a href="https://www.w3.org/WAI/tips/writing/">Writing for Web Accessibility</a> — W3C Web Accessibility Initiative</li>
+        <li><a href="https://spec.commonmark.org/">CommonMark Specification</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!--
+    FOOTER
+    Contiene información de cierre o complementaria.
+  -->
+  <footer>
+
+    <p>Organizar antes de diseñar.</p>
+
+  </footer>
+
+</body>
+</html>
