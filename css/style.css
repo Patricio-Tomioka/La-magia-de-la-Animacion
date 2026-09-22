@@ -12,7 +12,8 @@
   --color-text: #171717;
   --color-accent: #5b3df5;
 
-  --font-family-base: system-ui, Arial, Helvetica, sans-serif;
+  --font-family-base: 'Patrick Hand SC', cursive;
+  --font-title: 'Zen Dots', cursive;
 
   --font-size-body: 1rem;
   --font-size-h1: 3rem;
@@ -67,7 +68,9 @@ header p {
   HTML define la jerarquía.
   CSS controla su representación visual.
 */
-
+h1,  h2, h3 {
+  font-family: var(--font-title);
+}
 h1 {
   font-size: var(--font-size-h1);
   margin: 0;
