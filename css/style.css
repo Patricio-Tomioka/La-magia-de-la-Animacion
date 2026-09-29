@@ -6,20 +6,8 @@
   Variables reutilizables para mantener un sistema visual
   consistente en todo el documento.
 */
-
-:root {
-  --color-background: #f4f4f0;
-  --color-text: #171717;
-  --color-accent: #5b3df5;
-
-  --font-family-base: 'Patrick Hand SC', cursive;
-  --font-title: 'Zen Dots', cursive;
-
-  --font-size-body: 1rem;
-  --font-size-h1: 3rem;
-  --font-size-h2: 2rem;
-  --font-size-h3: 1.25rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Lekton:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&display=swap');
+:root {--color-background: hsl(0, 0%, 0%);--color-text: hsl(0, 0%, 100%);--color-accent: hsl(250, 92%, 49%);--font-family-base: "Lekton", cursive;--font-subtitle: 'Permanent Marker', cursive;--font-title: 'Bungee Inline', cursive;--font-size-body: 1.24rem;--font-size-h1: 5VW;--font-size-h2: 2rem;--font-size-h3: 1.25rem;}
 
 /*
   ============================================================
@@ -70,6 +58,7 @@ header p {
 */
 h1,  h2, h3 {
   font-family: var(--font-title);
+  font-weight: normal;
 }
 h1 {
   font-size: var(--font-size-h1);
@@ -79,6 +68,7 @@ h1 {
 
 h2 {
   font-size: var(--font-size-h2);
+  text-align: center;
 }
 
 h3 {
