@@ -7,7 +7,7 @@
   consistente en todo el documento.
 */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Lekton:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&display=swap');
-:root {--color-background: hsl(0, 0%, 0%);--color-text: hsl(0, 0%, 100%);--color-accent: hsl(250, 92%, 49%);--font-family-base: "Lekton", cursive;--font-subtitle: 'Permanent Marker', cursive;--font-title: 'Bungee Inline', cursive;--font-size-body: 1.24rem;--font-size-h1: 5VW;--font-size-h2: 2rem;--font-size-h3: 1.25rem;}
+:root {--color-background: hsl(0, 0%, 0%);--color-text: lab(84.5% -22.21 -13.81);--color-accent: lab(29.4% 71.78 -95.67);--font-family-base: "Lekton", cursive;--font-subtitle: 'Permanent Marker', cursive;--font-title: 'Bungee Inline', cursive;--font-size-body: 1.24rem;--font-size-h1: 5VW;--font-size-h2: 2rem;--font-size-h3: 1.25rem;}
 
 /*
   ============================================================
